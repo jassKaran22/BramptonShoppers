@@ -1,0 +1,178 @@
+/* custom css */
+.wrapper {
+	background: url(../images/bg.png) #eee;
+	border-bottom: 1px solid #bbb;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	padding: 30px 0
+}
+.footer {
+	color: #999;
+	padding: 30px 0 60px
+}
+.navbar {
+	position: static!important;
+	margin: 0!important
+}
+.navbar .navbar-inner {
+	background: #fff;
+	border-bottom: 1px solid #bbb;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15)
+}
+.navbar .brand {
+	color: #333;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 20px;
+	padding: 20px
+}
+.navbar .nav>li>a {
+	padding: 20px 15px;
+	font-weight: bold;
+	color: #777
+}
+.navbar .nav>li.active , .navbar .nav>li.active , .navbar .nav>li.active, .navbar .nav>li:hover  {
+	background: #f9f9f9;
+}
+.navbar .nav>li.dropdown.open>.dropdown-toggle, .navbar .nav>li.dropdown.active>.dropdown-toggle, .navbar .nav>li.dropdown.open.active>.dropdown-toggle {
+	background: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding-left: 14px;
+	padding-right: 14px;
+	position: relative;
+	z-index: 9999
+}
+.navbar .nav>li>.dropdown-menu {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	left: -1px;
+	min-width: 200px;
+	margin: -1px 0 0;
+	z-index: 9991
+}
+.navbar .nav>li>.dropdown-menu::before, .navbar .nav>li>.dropdown-menu::after {
+	display: none
+}
+.navbar .nav>li>.dropdown-menu li>a {
+	padding: 10px 20px
+}
+.navbar .nav>li>.dropdown-menu li>a:hover {
+	background: #f9f9f9;
+	color: #555
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus
+{
+  box-shadow: none;
+	}
+.navbar .nav.nav-icons>li>a {
+	background: none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #777;
+	font-weight: bold;
+	padding: 5px;
+	margin: 15px 5px
+}
+.navbar .pull-right>li>.dropdown-menu, .navbar .nav>li>.dropdown-menu.pull-right {
+	right: 0;
+	left: auto
+}
+.nav-user>a {
+	height: 20px
+}
+.nav-avatar {
+	width: 34px;
+	height: 34px;
+	margin: -7px 5px 0 0;
+	border-radius: 50%
+}
+.dropdown-menu {
+	border-radius: 3px
+}
+.alert {
+	background: #fffaef;
+	border-color: #ecdcb6;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+	color: #b68b53
+}
+.alert-danger, .alert-error {
+	background: #f7e7e4;
+	border-color: #ecbeb6;
+	color: #b55351
+}
+.alert-success {
+	background: #eaf4e2;
+	border-color: #c1dea9;
+	color: #61a06f
+}
+.btn {
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.table {
+	margin-bottom: 0
+}
+.table th, .table td {
+	border-color: #d5d5d5!important
+}
+.table-bordered thead:first-child tr:first-child>th:first-child, .table-bordered tbody:first-child tr:first-child>td:first-child {
+	border-top-left-radius: 2px
+}
+.table-bordered thead:first-child tr:first-child>th:last-child, .table-bordered tbody:first-child tr:first-child>td:last-child {
+	border-top-right-radius: 2px
+}
+.table-bordered thead:last-child tr:last-child>th:first-child, .table-bordered tbody:last-child tr:last-child>td:first-child, .table-bordered tfoot:last-child tr:last-child>td:first-child {
+	border-bottom-left-radius: 2px
+}
+.table-bordered thead:last-child tr:last-child>th:last-child, .table-bordered tbody:last-child tr:last-child>td:last-child, .table-bordered tfoot:last-child tr:last-child>td:last-child {
+	border-bottom-right-radius: 2px
+}
+
+.widget-menu {
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden
+}
+.widget-menu a {
+	color: #555;
+	display: block;
+	line-height: 20px;
+	padding: 15px;
+	text-decoration: none!important
+}
+.widget-menu .menu-icon {
+	margin-right: 10px;
+	color: #767676;
+transition: all .2s ease-in-out;
+}
+
+.widget-menu>li+li {
+	border-top: 1px solid #555
+}
+.widget-menu>li>a {
+	background-color: #2d2b32;
+	color: #767676;
+transition: all .2s ease-in-out;
+}
+.widget-menu >li> a.active {
+	color: #fafafa;
+}
+.widget-menu>li>a:hover {
+	background-color: #28262c;
+	color: #fafafa;
+}
+
+.widget-menu>li>a:hover .menu-icon { color:#fff;}
+
+.dataTables_length{ float: left;}
+.dataTables_filter	{ float: right;}

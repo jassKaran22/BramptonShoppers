@@ -1,0 +1,12 @@
+Points are:
+
+1. Remove extra columns from Users table: 
+ a. all shipping details
+ b. all billing details
+
+2. Remove extra columns from Products table:
+ a. Inventory related columns
+
+3. Create a new table Product Inventory
+
+4. Create a new table user_billing_shipping
