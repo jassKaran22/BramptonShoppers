@@ -3,6 +3,7 @@ session_start();
 error_reporting(0);
 include('includes/config.php');
 
+
 //add product to cart
 if(isset($_GET['action']) && $_GET['action']=="add"){
 	$id = intval($_GET['id']);
