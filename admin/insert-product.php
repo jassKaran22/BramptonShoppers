@@ -6,7 +6,6 @@ include('include/config.php');
 if(strlen($_SESSION['alogin']) == 0){	
 	header('location:index.php');
 }else{	
-	//print_r($_POST);die;
 	if(isset($_POST['submit'])){
 		$category = $_POST['category'];
 		$productname = $_POST['productName'];
