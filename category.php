@@ -4,7 +4,6 @@ error_reporting(0);
 include('includes/config.php');
 
 //to fetch all products in particular category
-
 $cid = intval($_GET['cid']);
 
 ?>

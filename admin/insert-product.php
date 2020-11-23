@@ -16,7 +16,6 @@ if(strlen($_SESSION['alogin']) == 0){
 		$productdescription = $_POST['productDescription'];
 		$productimage1 = $_FILES["productimage1"]["name"];
 		
-		
 		if(!empty($_FILES["productimage1"]["name"])) { 
 			$image = $_FILES['productimage1']['tmp_name']; 
             $imgContent = addslashes(file_get_contents($image));
