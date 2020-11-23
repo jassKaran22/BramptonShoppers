@@ -78,9 +78,7 @@ $cid = intval($_GET['cid']);
 																		<div class="image">
 																			<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 																				<?php if(!empty($row['image_file'])){ ?>				
-																					<img src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
-																				<?php }else{ ?>
-																					<img src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" alt="" >
+																					<img src="data:image;base64,<?php echo base64_encode($row['image_file']); ?>" />
 																				<?php } ?>	
 																			</a>
 																		</div>			                      		   

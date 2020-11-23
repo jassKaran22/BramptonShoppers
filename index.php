@@ -66,9 +66,7 @@ include('includes/config.php');
 																		<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 																			<?php if(!empty($row['image_file'])){ ?>
 																				<img width="200" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
-																			<?php }else{ ?>
-																				<img src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="180" height="300">
-																			<?php } ?>	
+																			<?php }?>	
 																		</a>
 																	</div>
 																</div>
@@ -107,8 +105,6 @@ include('includes/config.php');
 																		<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 																			<?php if(!empty($row['image_file'])){ ?>
 																				<img width="200" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
-																			<?php }else{ ?>
-																				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="180" height="300">
 																			<?php } ?>
 																		</a>	
 																	</div>
@@ -155,8 +151,6 @@ include('includes/config.php');
 																		<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 																			<?php if(!empty($row['image_file'])){ ?>
 																				<img width="200" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
-																			<?php }else{ ?>
-																				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="180" height="300">
 																			<?php } ?>		
 																		</a>
 																	</div>
@@ -196,8 +190,6 @@ include('includes/config.php');
 																		<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 																			<?php if(!empty($row['image_file'])){ ?>
 																				<img width="200" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
-																			<?php }else{ ?>
-																				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="180" height="300">
 																			<?php } ?>	
 																		</a>
 																	</div>

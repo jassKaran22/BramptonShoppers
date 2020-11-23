@@ -91,8 +91,6 @@ $pid = intval($_GET['pid']);
 													<a class="horizontal-thumb">
 														<?php if(!empty($row['image_file'])){ ?>
 															<img width="200" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
-														<?php }else{ ?>
-															<img class="img-responsive"  alt="" src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" />
 														<?php } ?>
 													</a>
 												</div>
