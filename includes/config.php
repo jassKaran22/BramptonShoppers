@@ -1,7 +1,7 @@
 <?php
 
 //database configuration
-define('DB_SERVER','loca.database.windows.net');
+define('DB_SERVER','tcp:loca.database.windows.net,1433');
 define('DB_USER','dbroot');
 define('DB_PASS' ,'Admin123');
 define('DB_NAME', 'shopping');
