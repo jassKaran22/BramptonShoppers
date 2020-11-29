@@ -1,7 +1,7 @@
 
 <?php echo 'fdghfdjkghkfdjgkjdfhgkdjfhgkjfdhd';
 
-$con = mysqli_connect("loca.database.windows.net","root", "Admin123","shopping");
+$con = mysqli_connect("loca.database.windows.net","azure", "Admin123","shopping");
 // Check connection
 if (mysqli_connect_errno())
 {
