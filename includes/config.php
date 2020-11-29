@@ -1,9 +1,9 @@
 <?php
 
 //database configuration
-define('DB_SERVER','loca.database.windows.net');
-define('DB_USER','dbroot@loca.database.windows.net');
-define('DB_PASS' ,'Admin123');
+define('DB_SERVER','localhost');
+define('DB_USER','root');
+define('DB_PASS' ,'');
 define('DB_NAME', 'shopping');
 
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
