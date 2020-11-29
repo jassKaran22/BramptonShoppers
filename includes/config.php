@@ -1,5 +1,5 @@
 
-<?php die;
+<?php echo 'fdghfdjkghkfdjgkjdfhgkdjfhgkjfdhd';die;
 // PHP Data Objects(PDO) Sample Code:
 try { 
     $conn = new PDO("sqlsrv:server = tcp:loca.database.windows.net,1433; Database = shopping", "dbroot", "Admin123");
