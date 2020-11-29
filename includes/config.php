@@ -1,5 +1,5 @@
 
-<?php echo 'fdghfdjkghkfdjgkjdfhgkdjfhgkjfdhd';
+<?php //echo 'fdghfdjkghkfdjgkjdfhgkdjfhgkjfdhd';
 
 $con = mysqli_connect("capstoneservers.mysql.database.azure.com","capstoneadmin%40capstoneservers", "Admin123","shopping");
 // Check connection
@@ -12,6 +12,6 @@ if (mysqli_connect_errno())
 
 
 
-die;
+//die;
 
 ?>
