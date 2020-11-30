@@ -220,7 +220,7 @@ if(isset($_POST['shipupdate'])){
 														
 														<td class="cart-image">
 															<a class="entry-thumbnail" href="detail.html">
-																<img src="admin/productimages/<?php echo $row['id'];?>/<?php echo $row['productImage1'];?>" alt="" width="114" height="146">
+																<img width="114" height="146" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['image_file']); ?>" />
 															</a>
 														</td>
 														
@@ -429,9 +429,9 @@ if(isset($_POST['shipupdate'])){
 													<div class="cart-checkout-btn pull-right">
 														<?php
 														if(strlen($_SESSION['login'])==0){   ?> 
-															<a href="http://localhost/BramptonShoppers/login.php" class="btn btn-primary">PROCCED TO CHEKOUT</a>
+															<a href="http://localhost/BramptonShoppers/login.php" class="btn btn-primary">PROCEED TO CHEKOUT</a>
 														<?php }else{ ?>
-															<button type="submit" name="ordersubmit" class="btn btn-primary">PROCCED TO CHEKOUT</button>
+															<button type="submit" name="ordersubmit" class="btn btn-primary">PROCEED TO CHEKOUT</button>
 														<?php }?>
 													</div>
 												</td>
