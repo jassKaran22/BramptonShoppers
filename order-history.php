@@ -65,7 +65,7 @@ else{
 										</thead>
 										
 										<tbody>
-											<?php $query = mysqli_query($con,"SELECT products.productImage1 as pimg1,products.productName as pname,products.id as proid,orders.productId as opid,orders.quantity as qty,products.productPrice as pprice,orders.paymentMethod as paym,orders.orderDate as odate,orders.id as orderid FROM orders JOIN products ON orders.productId=products.id WHERE orders.userId='".$_SESSION['id']."' AND orders.paymentMethod is not null");
+											<?php $query = mysqli_query($con,"SELECT products.productImage1 as pimg1,products.image_file as imageFile,products.productName as pname,products.id as proid,orders.productId as opid,orders.quantity as qty,products.productPrice as pprice,orders.paymentMethod as paym,orders.orderDate as odate,orders.id as orderid FROM orders JOIN products ON orders.productId=products.id WHERE orders.userId='".$_SESSION['id']."' AND orders.paymentMethod is not null");
 											
 											$cnt=1;
 											
@@ -74,7 +74,7 @@ else{
 													<td><?php echo $cnt;?></td>
 													<td class="cart-image">
 														<a class="entry-thumbnail" href="detail.html">
-															<img src="admin/productimages/<?php echo $row['proid'];?>/<?php echo $row['pimg1'];?>" alt="" width="84" height="146">
+															<img width="84" height="146" src="data:image;charset=utf8;base64,<?php echo base64_encode($row['imageFile']); ?>" />
 														</a>
 													</td>
 													<td class="cart-product-name-info">
