@@ -1,4 +1,4 @@
-<?php echo 'heloooooo';
+<?php
     $conn = getenv("MYSQLCONNSTR_localdb"); 
 
     $conarr2 = explode(";",$conn); 
@@ -8,16 +8,14 @@
         $conarr[$k] = substr($value,strpos($value,'=')+1);
     }
     
-    print_r($conarr); 
-    echo $dbserver = $conarr['Database'];
-    echo $dbserver = $conarr['User Id'];
-    echo $dbserver = $conarr['Password'];
+//    print_r($conarr); 
+    $dbserver = $conarr['Database'];
+    $dbUser = $conarr['User Id'];
+    $dbPaswrd = $conarr['Password'];
 
-die;
-
-    define('DB_SERVER','localhost');
-    define('DB_USER','root');
-    define('DB_PASS' ,'');
+    define('DB_SERVER',$$dbserver);
+    define('DB_USER',$dbUser);
+    define('DB_PASS' ,$dbPaswrd);
     define('DB_NAME', 'shopping');
 
     $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
