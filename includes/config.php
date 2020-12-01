@@ -8,8 +8,8 @@
         $conarr[$k] = substr($value,strpos($value,'=')+1);
     }
     
-    print_r($conarr); die;
-    $dbserver = $conarr['Database'];
+    //print_r($conarr); 
+    $dbserver = $conarr['Data Source'];
     $dbUser = $conarr['User Id'];
     $dbPaswrd = $conarr['Password'];
 
