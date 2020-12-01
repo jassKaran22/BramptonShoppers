@@ -1,4 +1,4 @@
-<?php echo 'heloooooo';die;
+<?php echo 'heloooooo';
     $conn = getenv("MYSQLCONNSTR_localdb"); 
 
     $conarr2 = explode(";",$conn); 
@@ -8,5 +8,5 @@
         $conarr[$k] = substr($value,strpos($value,'=')+1);
     }
     
-    print_r($conarr); 
+    print_r($conarr); die;
 ?>
