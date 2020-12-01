@@ -1,4 +1,4 @@
-<?php 
+<?php echo 'heloooooo';die;
     $conn = getenv("MYSQLCONNSTR_localdb"); 
 
     $conarr2 = explode(";",$conn); 
