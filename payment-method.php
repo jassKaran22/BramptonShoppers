@@ -68,6 +68,29 @@ if(strlen($_SESSION['login'])==0){
 											</form>		
 										</div>
 									</div>
+									
+									
+									<script src="https://www.paypal.com/sdk/js?client-id=sb&disable-funding=credit,card""></script>
+									<script>paypal.Buttons().render('#paypal-button-container');</script>
+									
+									<div class="panel-heading">
+										<h4 class="unicase-checkout-title">
+											Under Development
+										</h4>
+									</div>
+									<style>
+									.overlay.disabled{
+									  pointer-events: none;
+									  opacity: 0.5;
+									  background: #CCC;
+									}
+									</style>	
+									<div id="overlay" class="panel-collapse collapse in overlay disabled">
+										<div class="panel-body" style="width: 250px;">
+											<div id="paypal-button-container"></div>
+										</div>
+									</div>	
+									
 								</div>
 							</div>
 						</div>
