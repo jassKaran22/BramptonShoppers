@@ -132,7 +132,7 @@ if(isset($_POST['shipupdate'])){
 			<div class="container">
 				<div class="breadcrumb-inner">
 					<ul class="list-inline list-unstyled">
-						<li><a href="#">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						<li class='active'>Shopping Cart</li>
 					</ul>
 				</div>
@@ -429,7 +429,7 @@ if(isset($_POST['shipupdate'])){
 													<div class="cart-checkout-btn pull-right">
 														<?php
 														if(strlen($_SESSION['login'])==0){   ?> 
-															<a href="http://localhost/BramptonShoppers/login.php" class="btn btn-primary">PROCEED TO CHEKOUT</a>
+															<a href="login.php" class="btn btn-primary">PROCEED TO CHEKOUT</a>
 														<?php }else{ ?>
 															<button type="submit" name="ordersubmit" class="btn btn-primary">PROCEED TO CHEKOUT</button>
 														<?php }?>
