@@ -63,7 +63,9 @@
 										</span>
 									</div>
 									<div class="media-body">
-										<p>(437) 2441870<br>(437) 5663450</p>
+										<p>(437)2441870<br>
+										(647)7780470<br>
+										(647)8190470</p>
 									</div>
 								</li>
 								<li class="media">
@@ -74,7 +76,11 @@
 										</span>
 									</div>
 									<div class="media-body">
-										<span><a href="#">cloudComputingTesting@gmail.com</a></span>
+										<span>
+											<a href="#">jasskhaira10@gmail.com</a><br>
+											<a href="#">venkey619@icloud.com</a><br>
+											<a href="#">sgmadhurima@gmail.com</a>
+										</span>
 									</div>
 								</li>              
 							</ul>
